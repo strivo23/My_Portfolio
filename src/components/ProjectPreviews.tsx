@@ -18,7 +18,7 @@ export const LeadFlowPreview: React.FC = () => {
       <div className="preview-inner care-preview-grid">
         <div className="care-sidebar">
           <div className="preview-mini-header font-mono">CAMPAIGN PIPELINE</div>
-          <div className="dispatch-badge font-mono" style={{ backgroundColor: '#EEF4F0', color: '#1B4332', border: '1px solid #BCD4C4' }}>
+          <div className="dispatch-badge dispatch-success font-mono">
             <CheckCircle2 size={12} /> CAMPAIGN ACTIVE
           </div>
           <div className="dispatch-item active">
